@@ -1,0 +1,75 @@
+.bgimage{
+  background-image: url("https://cdn.pixabay.com/photo/2023/09/05/16/40/sunrise-8235464_1280.jpg"); /* The image used */
+  background-color: #cccccc; 
+  height: 500px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.brandname{
+  font-weight: bold;
+  color:rgb(230, 91, 205) ;
+  position: relative;
+}
+
+.authentication{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  margin: 13px;
+  padding: 5px;
+}
+
+.authentication button{
+  margin: 5px;
+  background-color: rgb(235, 94, 132);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  font-size: 16px;
+}
+
+.header1{
+  margin-top: 100px;
+}
+
+.header1, .header2{
+  color: white;
+  text-align: center;
+}
+
+.form{
+  margin-top: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.form input[type="text"]{
+  width: 90%;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+
+.search{
+  background-color: rgb(235, 94, 132);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  font-size: 16px;
+  width: 20%;
+}
