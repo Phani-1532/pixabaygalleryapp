@@ -20,6 +20,7 @@ function Search({match}) {
                     <h4 className='card-title'>{data.tags}</h4>
                 </div>
                 <div className='card-footer'>
+                <h5>Info</h5>
                 <p>Views : {data.views} views</p>
                 <p>Downloads : {data.downloads} downloads</p>
                 <p>Likes : {data.likes} likes</p>
