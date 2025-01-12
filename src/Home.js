@@ -21,7 +21,7 @@ function Home() {
         <h2 className='header2'>Over 5.2 million+ high quality stock images, videos and music shared by our talented community.</h2>
         <div className='form'>
         <FiSearch className='search-icon' style={{ marginRight: '0px', color: '#aaa', fontSize: '30px' }} />
-        <input type='text' placeholder='      Search for free images, Videos, Music & more' value={search} onChange={(e) => {setSearch(e.target.value)} } /> <br></br>
+        <input type='text' placeholder='Search for free images, Videos, Music & more' value={search} onChange={(e) => {setSearch(e.target.value)} } /> <br></br>
         <br></br><button className='search' onClick={() => { search && navigator(`/search/${search}`)}}>Search</button>
         </div>
       </div>
