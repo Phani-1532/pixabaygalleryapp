@@ -1,7 +1,7 @@
 .bgimage{
   background-image: url("https://cdn.pixabay.com/photo/2023/09/05/16/40/sunrise-8235464_1280.jpg"); /* The image used */
   background-color: #cccccc; 
-  height: 500px;
+  height:100vh;
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,6 +12,7 @@
   font-weight: bold;
   color:rgb(230, 91, 205) ;
   position: relative;
+  padding: 20px;
 }
 
 .authentication{
@@ -62,9 +63,9 @@
 
 .search-icon{
   position: relative;
-  left: 40px;
+  
   text-align: center;
-  top: -2px;
+ 
 }
 
 .search{
@@ -78,4 +79,21 @@
   transition: transform 0.3s ease;
   font-size: 16px;
   width: 20%;
+  margin-top: 20px;
 }
+
+@media (max-width:480px){
+  .search{
+    padding: 10px;
+    width: 200px;
+  }
+
+  .auth-button{
+    width: 68px;
+  }
+
+  .brandname{
+    padding: 30px;
+  }
+}
+
